@@ -46,6 +46,21 @@
       <li class="nav-item">
       <%= link_to "About Us", "/about", class: "nav-link" %>
       </li>
+      <li class="nav-item">
+      <%= link_to "Sign Up", "/sign_up", class: "nav-link" %>
+      </li>
+      <% if Current.user %>
+      <li class="nav-item">
+      Logged in as: <%= Current.user.email %><br>
+      </li>
+      <li class="nav-item">
+      <%= button_to 'Logout', logout_path, method: :delete %>
+      </li>
+      <% else %>
+      <li class="nav-item">
+      <%= link_to "Sign In", "/sign_in", class: "nav-link" %>
+      </li>
+      <% end %>
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle text-danger"
