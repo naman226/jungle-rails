@@ -5,13 +5,13 @@ Jungle is an e-commerce store that specializes in plants. Jungle makes the proce
 ## Project Snap Shots
 
 ### Home-page. 
-!["Home-Page"](#)
+!["Home-Page"](https://github.com/naman226/jungle-rails/blob/master/docs/Homepage.png?raw=true)
 
 ### Home-page product selection
-!["Product-Details_Page"](#)
+!["Product-Details_Page"](https://github.com/naman226/jungle-rails/blob/master/docs/homepage%20products.png?raw=true)
 
 ### Product details
-!["Product-Details_Page"](#)
+!["Product-Details_Page"](https://github.com/naman226/jungle-rails/blob/master/docs/product%20details.png?raw=true)
 
 ## Setup
 
